@@ -3,12 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>N. Bagheri</title>
+  <meta name="description" content="Nasim Bagheri — PhD researcher in haptics, tactile graphics, and inclusive interaction design.">
+  <meta name="theme-color" content="#071a35">
+  <title>Nasim Bagheri | PhD Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Hello, I'm N. Bagheri</h1>
-  <p>Welcome to my personal website.</p>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Nasim Bagheri, home">NB<span>.</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">PhD researcher · haptics &amp; accessibility</p>
+        <h1 id="page-title">Nasim<br>Bagheri<span class="period">.</span></h1>
+        <p class="lede">I design and study tactile experiences that make spatial information more accessible—bringing together haptic perception, tactile graphics, and inclusive human–computer interaction.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore research <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="https://fr.linkedin.com/in/nasim-bagheri" target="_blank" rel="noreferrer">LinkedIn profile <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <aside class="research-card" aria-label="Research profile">
+        <p class="card-label">Research profile</p>
+        <dl>
+          <div>
+            <dt>Focus</dt>
+            <dd>Tactile graphics &amp; haptic perception</dd>
+          </div>
+          <div>
+            <dt>Approach</dt>
+            <dd>Empirical studies &amp; perceptual modelling</dd>
+          </div>
+          <div>
+            <dt>Academic home</dt>
+            <dd>École Polytechnique · Institut Polytechnique de Paris</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="section research" id="research" aria-labelledby="research-heading">
+      <div class="section-kicker"><span>01</span> Research</div>
+      <div class="section-content">
+        <h2 id="research-heading">Designing tactile information for more accessible interaction.</h2>
+        <div class="research-intro">
+          <p>My PhD research explores how people perceive and navigate tactile patterns. I investigate the perceptual relationships between raised-line graphics and the transitions between them, with the aim of making tactile information clearer and more meaningful.</p>
+          <p>I contribute to research on automatic tactile-map generation, combining geometric tactile patterns with multisensory analysis to help people with visual impairments perceive and interact with the physical world.</p>
+        </div>
+        <div class="topic-grid">
+          <article>
+            <p class="topic-number">01</p>
+            <h3>Tactile graphics</h3>
+            <p>Designing patterns and raised-line graphics that communicate spatial and visual information through touch.</p>
+          </article>
+          <article>
+            <p class="topic-number">02</p>
+            <h3>Haptic perception</h3>
+            <p>Understanding how people distinguish tactile patterns and perceive transitions during exploration.</p>
+          </article>
+          <article>
+            <p class="topic-number">03</p>
+            <h3>Inclusive design</h3>
+            <p>Developing accessible, multisensory tools and methods with people with visual impairments in mind.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section publications" id="publications" aria-labelledby="publications-heading">
+      <div class="section-kicker"><span>02</span> Selected work</div>
+      <div class="section-content">
+        <h2 id="publications-heading">Selected publication &amp; research project.</h2>
+        <ol class="publication-list">
+          <li>
+            <p class="pub-type">Conference contribution · EuroHaptics 2026</p>
+            <h3>Toward a Relative Metric for Tactile Dissimilarity: Empirical Insights for Modeling Transition Saliency in Tactile Graphics</h3>
+            <p class="authors">Nasim Bagheri, Mathieu Gaborit, Anne Chotin, Emilien Ghomi, David Gueorguiev, Gilles Bailly, Panagiotis Mavros &amp; Pooran Memari</p>
+            <p class="venue"><em>Haptics: Understanding Touch; Technology and Systems; Applications and Interaction</em></p>
+          </li>
+          <li>
+            <p class="pub-type">Ongoing research project</p>
+            <h3>Towards Automatic Tactile Map Generation</h3>
+            <p class="authors">A collaboration between Institut Polytechnique de Paris, Sorbonne Université and INSEI</p>
+            <p class="venue">Developing tactile and multisensory techniques to support access to spatial information.</p>
+          </li>
+        </ol>
+        <a class="text-link all-work" href="https://researchportal.ip-paris.fr/en/publications/toward-arelative-metric-fortactile-dissimilarity-empirical-insigh/" target="_blank" rel="noreferrer">Read the publication record <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section affiliation" aria-labelledby="affiliation-heading">
+      <div class="section-kicker"><span>03</span> Academic home</div>
+      <div class="section-content affiliation-content">
+        <div>
+          <h2 id="affiliation-heading">École Polytechnique</h2>
+          <p class="affiliation-copy">PhD Researcher, Laboratoire d’Informatique (LIX)<br>Institut Polytechnique de Paris, France</p>
+        </div>
+        <p class="thesis"><span>Research direction</span> Tactile geometric pattern modelling and accessible map generation for people with visual impairments.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p class="eyebrow">Get in touch</p>
+    <div class="footer-main">
+      <h2>Open to research<br>conversations<span class="period">.</span></h2>
+      <div class="contact-links">
+        <a href="mailto:nasim.bagheri@ip-paris.fr">nasim.bagheri@ip-paris.fr <span aria-hidden="true">↗</span></a>
+        <a href="https://fr.linkedin.com/in/nasim-bagheri" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/n-bagheri" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year">2026</span> Nasim Bagheri</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
 </body>
 </html>
