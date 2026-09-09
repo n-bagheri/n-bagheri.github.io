@@ -13,7 +13,7 @@ pagination:
   pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
-ignoreFiles: [".ipynb_checkpoints$", "\.Rmd$", "\.Rmarkdown$", "_cache$"]
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
