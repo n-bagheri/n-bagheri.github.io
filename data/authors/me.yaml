@@ -1,0 +1,41 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Nasim Bagheri
+  given: Nasim
+  family: Bagheri
+  pronouns: ''
+status:
+  icon: "🔬"
+role: PhD Researcher
+bio: |
+  Nasim Bagheri is a PhD researcher working on tactile graphics, haptics, and inclusive accessibility. Her research explores how tactile information can support independent access to spatial and visual content, including automatic tactile map generation.
+affiliations:
+  - name: École Polytechnique / Institut Polytechnique de Paris
+    url: https://www.ip-paris.fr/
+  - name: Laboratoire d'Informatique de l'École Polytechnique (LIX)
+    url: https://www.lix.polytechnique.fr/
+links:
+  - icon: at-symbol
+    url: mailto:nasim.bagheri@ip-paris.fr
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/n-bagheri
+  - icon: brands/linkedin
+    url: https://fr.linkedin.com/in/nasim-bagheri
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-7526-8680
+interests:
+  - Tactile Graphics
+  - Haptics
+  - Inclusive Accessibility
+  - Tactile Map Generation
+education:
+  - degree: PhD Researcher
+    institution: Institut Polytechnique de Paris
+    summary: Research in tactile graphics, haptics, and accessible interaction.
+experience:
+  - role: PhD Researcher
+    org: LIX, École Polytechnique / Institut Polytechnique de Paris
+    summary: Investigating tactile interaction and methods for creating accessible tactile graphics and maps.
