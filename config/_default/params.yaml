@@ -1,0 +1,58 @@
+hugoblox:
+  schema: "2.0"
+  identity:
+    name: "Nasim Bagheri"
+    type: person
+    description: "Nasim Bagheri is a PhD researcher in tactile graphics, haptics, and inclusive accessibility."
+  theme:
+    mode: system
+    pack: default
+  typography:
+    pack: academic
+  layout:
+    radius: md
+    spacing: spacious
+    avatar_shape: circle
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: false
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+  footer:
+    style: minimal
+    language_switcher: false
+  copyright:
+    notice: "© {year} {name}."
+  seo:
+    title: "Nasim Bagheri | PhD Researcher"
+    ai:
+      allow: [/]
+      disallow: []
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: apa
+  search:
+    enable: false
+  comments:
+    enable: false
+  repository:
+    enable: true
+    url: "https://github.com/n-bagheri/n-bagheri.github.io"
+    branch: main
+    content_dir: content
+  locale:
+    date_format: "Jan 2, 2006"
+    time_format: "3:04 PM"
+    address_format: en-us
+  pro:
+    hide_attribution: false
