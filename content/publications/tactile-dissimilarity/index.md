@@ -24,9 +24,8 @@ tags:
   - Haptics
   - Accessibility
 featured: true
-links:
-  - type: source
-    url: https://researchportal.ip-paris.fr/en/publications/toward-arelative-metric-fortactile-dissimilarity-empirical-insigh/
 ---
 
 Research on tactile dissimilarity and transition saliency for the design of accessible tactile graphics.
+
+[View the publication record at Institut Polytechnique de Paris.](https://researchportal.ip-paris.fr/en/publications/toward-arelative-metric-fortactile-dissimilarity-empirical-insigh/)
