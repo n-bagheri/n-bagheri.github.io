@@ -12,8 +12,7 @@ role: PhD Researcher in Computer Science
 bio: |
   I am a PhD researcher in accessible visual computing, tactile graphics, and human-computer interaction. I develop and evaluate tactile graphics and tangible interfaces for blind and low-vision people through empirical studies, participatory workshops, and public demonstrations, connecting scientific methods with real-world inclusion.
 affiliations:
-  - name: LIX, CNRS, Inria, École polytechnique, Institut Polytechnique de Paris, Palaiseau, France
-  - name: I3-SES, CNRS, Télécom Paris, Institut Polytechnique de Paris, Palaiseau, France
+  - name: LIX, CNRS, Inria, I3-SES, École polytechnique, Télécom Paris, Institut Polytechnique de Paris
 links:
   - icon: at-symbol
     url: mailto:nasim.bagheri@ip-paris.fr
