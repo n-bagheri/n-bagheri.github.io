@@ -14,8 +14,9 @@ publication:
   pages: '1–8'
   publisher: 'Association for Computing Machinery'
 peer_reviewed: true
+share: false
 abstract: |
-  This work explores marker-based tangible interactions for projected tabletops as a low-barrier approach to participatory mapping workshops.
+  Participatory mapping workshops bring local knowledge and needs into urban planning, but face a trade-off between accessibility and digital capability. Pen-and-paper methods lack automatic data capture and real-time visualization, while digital tangible tabletops require specialized, expensive hardware. Off-the-shelf projectors and cameras can turn ordinary surfaces into interactive displays, but existing implementations rely on detecting hand gestures, which are unreliable under projector lighting. Instead, printed fiducial markers offer robust tracking, but are inherently passive and lack established user-interaction techniques. To bridge this gap, we focus on object manipulation, rather than hand-tracking, using cardboard objects with fiducial markers. We test four new triggering mechanisms supporting a range of map interactions in a browser-based prototype, developed iteratively through three workshops (N=12), using participant feedback to improve reliability, expressiveness, and collaborative mapping. Our findings suggest this approach’s viability and open up directions for further work on tangible interaction in low-barrier participatory mapping.
 summary: |
   Designing marker-based tangible interactions for low-barrier participatory mapping workshops.
 tags:
