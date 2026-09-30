@@ -13,8 +13,10 @@ share: false
 image:
   caption: 'Overview of the semi-automatic transcription workflow and its perceptually grounded pattern-assignment component.'
   focal_point: Center
-  preview_only: false
+  preview_only: true
 ---
+
+{{< project-teaser src="featured.png" alt="Workflow from a visual thematic map through semantic interpretation, content detection, geometric processing, perceptually grounded pattern assignment, and tactile output, with the tactile-pattern studies shown below." caption="System overview. Select the diagram to view it at full resolution." >}}
 
 Educational thematic maps communicate spatial patterns, relationships, and structure, but they are often inaccessible to blind and low-vision learners. Converting them into tactile graphics is still a largely manual process that requires specialist knowledge and substantial time—especially when the source is a raster image from a textbook rather than structured geospatial data.
 
@@ -60,12 +62,12 @@ The next evaluation phase will examine the complete workflow with tactile-map cr
 ## Project team
 
 {{< team-grid >}}
-{{< team-card initials="NB" name="Nasim Bagheri" url="/" role="Project lead · PhD researcher" description="Research design, perceptual studies, prototype development, and project coordination." >}}
-{{< team-card initials="PM" name="Pooran Memari" url="https://www.lix.polytechnique.fr/~memari/" role="PhD supervisor" description="Visual computing, computational geometry, and geometry processing." >}}
-{{< team-card initials="PM" name="Panos Mavros" url="https://perso.telecom-paristech.fr/pmavros/" role="PhD supervisor" description="Design, spatial cognition, and user-experience research." >}}
-{{< team-card initials="GB" name="Gilles Bailly" url="https://hci.isir.upmc.fr/gilles-bailly/" role="Research collaborator" description="Human-computer interaction and accessibility." >}}
-{{< team-card initials="DG" name="David Gueorguiev" url="https://www.isir.upmc.fr/personnel/gueorguiev/" role="Research collaborator" description="Haptics, touch, and tactile perception." >}}
-{{< team-card initials="MG" name="Mathieu Gaborit" url="https://www.insei.fr/recherche/mathieu-gaborit" role="Domain expert · INSEI collaborator" description="Tactile graphics, relief-image adaptation, and visual-impairment education." >}}
+{{< team-card initials="NB" image="team-nasim.jpg" name="Nasim Bagheri" url="/" role="Project lead · PhD researcher" description="Research design, perceptual studies, prototype development, and project coordination." >}}
+{{< team-card initials="PM" image="team-pooran.png" name="Pooran Memari" url="https://www.lix.polytechnique.fr/~memari/" role="PhD supervisor" description="Visual computing, computational geometry, and geometry processing." >}}
+{{< team-card initials="PM" image="team-panos.png" name="Panos Mavros" url="https://perso.telecom-paristech.fr/pmavros/" role="PhD supervisor" description="Design, spatial cognition, and user-experience research." >}}
+{{< team-card initials="GB" image="team-gilles.png" name="Gilles Bailly" url="https://hci.isir.upmc.fr/gilles-bailly/" role="Research collaborator" description="Human-computer interaction and accessibility." >}}
+{{< team-card initials="DG" image="team-david.png" name="David Gueorguiev" url="https://www.isir.upmc.fr/personnel/gueorguiev/" role="Research collaborator" description="Haptics, touch, and tactile perception." >}}
+{{< team-card initials="MG" image="team-mathieu.png" name="Mathieu Gaborit" url="https://www.insei.fr/recherche/mathieu-gaborit" role="Domain expert · INSEI collaborator" description="Tactile graphics, relief-image adaptation, and visual-impairment education." >}}
 {{< /team-grid >}}
 
 ## Collaboration and stakeholder engagement

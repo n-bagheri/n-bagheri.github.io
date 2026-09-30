@@ -1,8 +1,16 @@
 {{- $url := .Get "url" -}}
+{{- $name := .Get "name" -}}
+{{- $imageName := .Get "image" -}}
+{{- $image := .Page.Resources.GetMatch $imageName -}}
 <article class="project-team-card">
-  <div class="project-team-avatar" aria-hidden="true">{{ .Get "initials" }}</div>
+  {{ if $image }}
+    {{- $thumbnail := $image.Fill "192x192 Center webp q88" -}}
+    <img class="project-team-avatar" src="{{ $thumbnail.RelPermalink }}" width="192" height="192" alt="Portrait of {{ $name }}" loading="lazy" decoding="async">
+  {{ else }}
+    <div class="project-team-avatar" aria-hidden="true">{{ .Get "initials" }}</div>
+  {{ end }}
   <div>
-    <h3><a href="{{ $url | safeURL }}"{{ if hasPrefix $url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Get "name" }}</a></h3>
+    <h3><a href="{{ $url | safeURL }}"{{ if hasPrefix $url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ $name }}</a></h3>
     <p class="project-team-role">{{ .Get "role" }}</p>
     <p class="project-team-description">{{ .Get "description" }}</p>
   </div>

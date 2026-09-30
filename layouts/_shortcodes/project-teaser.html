@@ -1,0 +1,10 @@
+{{- $src := .Get "src" -}}
+{{- $image := .Page.Resources.GetMatch $src -}}
+{{- if $image -}}
+<figure class="project-teaser">
+  <a href="{{ $image.RelPermalink }}" target="_blank" rel="noopener noreferrer" aria-label="Open the project workflow diagram at full resolution">
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Get "alt" }}" loading="eager" decoding="async">
+  </a>
+  {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{- end -}}
