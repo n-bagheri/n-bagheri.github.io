@@ -1,0 +1,4 @@
+/* Keep the open-source attribution while removing the promotional site-builder button. */
+[data-hbx="poweredby_cta"] {
+  display: none !important;
+}
