@@ -24,9 +24,6 @@ tags:
   - Human-Computer Interaction
   - Accessibility
 featured: true
-hugoblox:
-  ids:
-    doi: 10.1145/3821402.3830147
 ---
 
 This paper presents marker-based tangible interactions for projected tabletops, designed to lower barriers to participation in collaborative mapping workshops.
