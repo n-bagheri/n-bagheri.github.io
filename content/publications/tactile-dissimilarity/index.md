@@ -18,8 +18,9 @@ publication:
   publisher: 'Springer Nature Switzerland'
 peer_reviewed: true
 open_access: true
+share: false
 abstract: |
-  This work investigates tactile dissimilarity and transition saliency in tactile graphics, providing empirical insights toward a relative metric that can inform accessible graphic design.
+  Tactile graphics and raised-line drawings offer a rich domain for studying haptic perception, yet robust metrics of tactile dissimilarity between raised-line patterns remain underdeveloped. Pattern distinguishability is typically assessed individually, despite the local, sequential nature of tactile exploration and the importance of transitions between adjacent regions. To address this gap, we present a study comparing perceived transitions between adjacent tactile patterns with similarity judgments obtained from exploring the same patterns individually. The goal of this work is to probe the underlying perceptual organization that governs tactile pattern discrimination and continuity. Seventeen participants completed two complementary tasks under blindfolded conditions: (1) a free-sorting task in which patterns were grouped according to perceived similarity, and (2) a pairwise comparison task yielding confidence-rated binary judgments of transition saliency (i.e., how noticeable the transition between two adjacent patterns is) collected using a custom-built experimental interface. Results obtained from applying multidimensional scaling (MDS) to the free-sorting data converge with those of applying stochastic triplet embedding (STE) to pairwise judgments. Both approaches independently recover the same global structure. The alignment of the derived clusters across the two tasks provides initial empirical grounding for future work toward a relative metric of tactile dissimilarity, accounting for both individual pattern perception and local transitions.
 summary: |
   Empirical insights toward modeling transition saliency in tactile graphics.
 tags:
@@ -30,6 +31,4 @@ tags:
 featured: true
 ---
 
-This paper presents empirical insights toward a relative metric for tactile dissimilarity and transition saliency, supporting the design of accessible tactile graphics.
-
-[View the publication record at Institut Polytechnique de Paris.](https://researchportal.ip-paris.fr/en/publications/toward-arelative-metric-fortactile-dissimilarity-empirical-insigh/)
+[View the paper on SpringerLink.](https://link.springer.com/chapter/10.1007/978-3-032-32350-7_32)
