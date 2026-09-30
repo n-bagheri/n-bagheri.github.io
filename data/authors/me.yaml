@@ -8,14 +8,12 @@ name:
   pronouns: ''
 status:
   icon: "🔬"
-role: PhD Researcher
+role: PhD Researcher in Computer Science
 bio: |
-  Nasim Bagheri is a PhD researcher working on tactile graphics, haptics, and inclusive accessibility. Her research explores how tactile information can support independent access to spatial and visual content, including automatic tactile map generation.
+  I am a PhD researcher in accessible visual computing, tactile graphics, and human-computer interaction. I develop and evaluate tactile graphics and tangible interfaces for blind and low-vision people through empirical studies, participatory workshops, and public demonstrations, connecting scientific methods with real-world inclusion.
 affiliations:
-  - name: École Polytechnique / Institut Polytechnique de Paris
-    url: https://www.ip-paris.fr/
-  - name: Laboratoire d'Informatique de l'École Polytechnique (LIX)
-    url: https://www.lix.polytechnique.fr/
+  - name: LIX, CNRS, Inria, École polytechnique, Institut Polytechnique de Paris, Palaiseau, France
+  - name: I3-SES, CNRS, Télécom Paris, Institut Polytechnique de Paris, Palaiseau, France
 links:
   - icon: at-symbol
     url: mailto:nasim.bagheri@ip-paris.fr
@@ -27,15 +25,77 @@ links:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-7526-8680
 interests:
+  - Accessible Visual Computing
   - Tactile Graphics
-  - Haptics
-  - Inclusive Accessibility
-  - Tactile Map Generation
+  - Haptics and Tactile Perception
+  - Human-Computer Interaction
+  - Tangible Interfaces
 education:
-  - degree: PhD Researcher
+  - degree: PhD in Computer Science
+    institution: École Polytechnique and Télécom Paris
+    year: 2024–present
+    start: '2024'
+    summary: |
+      **Thesis:** A perceptually grounded approach to the semi-automatic development of educational tactile maps for blind and low-vision learners.
+
+      Funded by the IP Paris doctoral school and Hi! Paris.
+  - degree: Master of Science in Cognitive Sciences (CogMaster)
+    institution: Université Paris Cité, ENS-PSL, and EHESS
+    year: 2024–2025
+    start: '2024'
+    end: '2025'
+    summary: |
+      **Thesis:** Modeling relative haptic perception for tactile pattern design toward a metric for dissimilarity estimation.
+
+      Completed alongside the first year of the PhD. GPA: 16/20.
+  - degree: Master of Science in Machine Learning, Communication and Security
     institution: Institut Polytechnique de Paris
-    summary: Research in tactile graphics, haptics, and accessible interaction.
+    year: 2022–2023
+    start: '2022'
+    end: '2023'
+    summary: |
+      Thesis on AIoT-based neural decoding and neurofeedback for accelerated cognitive training.
+
+      Received the Labex DigiCosme scholarship, awarded to five M2 students across 16 laboratories. Earned 18/20 for the master's thesis, the highest grade recorded in the program's history; graduated with *mention bien*.
 experience:
   - role: PhD Researcher
-    org: LIX, École Polytechnique / Institut Polytechnique de Paris
-    summary: Investigating tactile interaction and methods for creating accessible tactile graphics and maps.
+    org: Laboratoire d'Informatique de l'École Polytechnique (LIX)
+    start: '2024'
+    summary: |
+      I study tactile perception and the effectiveness of geometric tactile patterns for accessible navigation maps and instructions.
+  - role: Research Engineer
+    org: Télécom Paris
+    start: 'Jan 2024'
+    end: 'Jun 2024'
+    summary: |
+      I designed experiments and collected EEG data for an AIoT-based mental-state classification method.
+  - role: Research Intern
+    org: Télécom Paris
+    start: 'Apr 2023'
+    end: 'Dec 2023'
+    summary: |
+      I developed AIoT-based mental-state classification methods using EEG signals and machine learning.
+  - role: Research Assistant
+    org: Swinburne University
+    start: '2020'
+    end: '2021'
+    summary: |
+      I reviewed state-of-the-art natural language processing methods for systematic reviews of randomized controlled trials. This position was remote.
+  - role: Teaching Assistant — Introduction to Computer Programming
+    org: École Polytechnique
+    start: 'Sep 2025'
+    end: 'Jan 2026'
+    summary: |
+      I delivered 24 hours of tutorial sessions (travaux dirigés, TD), supporting programming exercises, answering questions, and guiding practical work.
+  - role: Teaching Assistant — Quantitative User Experience (QuantUX)
+    org: École Polytechnique
+    start: 'Nov 2025'
+    end: 'Feb 2026'
+    summary: |
+      I delivered 12 hours of TD, supervised student projects, guided project development, and participated in final evaluations.
+  - role: Teaching Assistant — Introduction to Algorithms
+    org: École Polytechnique
+    start: 'Feb 2026'
+    end: 'Mar 2026'
+    summary: |
+      I delivered 28 hours of TD, supported exercise sessions and practical work, and assisted with grading final examinations.
