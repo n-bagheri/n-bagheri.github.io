@@ -1,0 +1,48 @@
+{{ $item := .item }}
+{{ $year_value := $item.Params.event_start | default $item.Date }}
+{{ $year := (time $year_value).Format "2006" }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+{{ $pub := partial "functions/resolve_publication.html" $item }}
+{{ $top_award := "" }}
+{{ with $item.Params.awards }}{{ $top_award = index . 0 }}{{ end }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1.5rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
+    <span class="article-metadata li-cite-author">
+      {{ partial "page_metadata_authors" $item }}
+    </span>
+    ({{- $year -}}).
+    <span class="font-medium text-slate-900 dark:text-slate-100">{{ $item.Title }}</span>.
+    {{ with $pub.display_short }}{{- . | markdownify -}}.{{ end }}
+  {{ else }}
+    <span class="article-metadata li-cite-author">
+      {{ partial "page_metadata_authors" $item }}.
+    </span>
+    <span class="font-medium text-slate-900 dark:text-slate-100">{{ $item.Title }}</span>.
+    {{ with $pub.display_short }}{{- . | markdownify -}},{{ end }}
+    {{- $year -}}.
+  {{ end }}
+
+  {{ with $top_award }}
+    <span class="ml-1">{{ partial "components/award_badge.html" (dict "award" . "page" $item "variant" "inline") }}</span>
+  {{ end }}
+
+  <div class="mt-3 flex flex-wrap items-center gap-3">
+    <a href="{{ $item.RelPermalink }}"
+       class="inline-flex items-center gap-2 rounded-md bg-primary-600 px-3 py-1.5 text-sm font-medium text-white no-underline transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-slate-900"
+       aria-label="View publication details for {{ $item.Title | plainify }}">
+      <span>View publication details</span>
+      <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </a>
+
+    {{ if $has_attachments }}
+      <div class="flex flex-wrap space-x-3">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
+    {{ end }}
+  </div>
+</div>
