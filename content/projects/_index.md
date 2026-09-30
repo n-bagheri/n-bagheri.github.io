@@ -7,7 +7,6 @@ sections:
   - block: collection
     content:
       title: Research Projects
-      text: Selected research projects in tactile graphics, haptics, and accessibility.
       filters:
         folders:
           - projects

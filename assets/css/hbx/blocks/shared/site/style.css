@@ -16,3 +16,83 @@
   text-align: justify;
   text-justify: inter-word;
 }
+
+/* Consistent, accessible project-team cards; portraits can replace initials later. */
+.project-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.project-team-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.25rem;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 1rem;
+  background: rgb(255 255 255 / 0.82);
+  box-shadow: 0 8px 24px rgb(15 23 42 / 0.06);
+}
+
+.project-team-avatar {
+  display: grid;
+  flex: 0 0 3.75rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  place-items: center;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, rgb(79 70 229 / 0.16), rgb(14 165 233 / 0.18));
+  color: rgb(49 46 129);
+  font-size: 1rem;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+}
+
+.project-team-card h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.project-team-card h3 a {
+  text-decoration: none;
+}
+
+.project-team-card h3 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.project-team-role {
+  margin: 0.25rem 0 0;
+  color: rgb(79 70 229);
+  font-size: 0.88rem;
+  font-weight: 650;
+}
+
+.project-team-description {
+  margin: 0.6rem 0 0;
+  color: rgb(71 85 105);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.dark .project-team-card {
+  border-color: rgb(51 65 85);
+  background: rgb(15 23 42 / 0.74);
+  box-shadow: none;
+}
+
+.dark .project-team-avatar {
+  color: rgb(199 210 254);
+}
+
+.dark .project-team-role {
+  color: rgb(165 180 252);
+}
+
+.dark .project-team-description {
+  color: rgb(203 213 225);
+}

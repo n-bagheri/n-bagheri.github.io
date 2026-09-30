@@ -1,0 +1,9 @@
+{{- $url := .Get "url" -}}
+<article class="project-team-card">
+  <div class="project-team-avatar" aria-hidden="true">{{ .Get "initials" }}</div>
+  <div>
+    <h3><a href="{{ $url | safeURL }}"{{ if hasPrefix $url "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Get "name" }}</a></h3>
+    <p class="project-team-role">{{ .Get "role" }}</p>
+    <p class="project-team-description">{{ .Get "description" }}</p>
+  </div>
+</article>
