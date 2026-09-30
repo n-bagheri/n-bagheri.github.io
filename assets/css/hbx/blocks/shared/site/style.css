@@ -4,6 +4,6 @@
 }
 
 /* Avoid stacking the global section spacing on top of the biography block's own padding. */
-.blox-resume-biography-3.hbb-section {
+#section-resume-biography-3.hbb-section {
   padding-top: 0;
 }
