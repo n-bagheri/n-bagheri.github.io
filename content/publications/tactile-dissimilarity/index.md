@@ -9,10 +9,13 @@ authors:
   - Gilles Bailly
   - Panagiotis Mavros
   - Pooran Memari
-date: '2025-01-01T00:00:00Z'
+date: '2026-07-01T00:00:00Z'
 publication_types: ['paper-conference']
 publication:
-  name: "Proceedings of the International Conference on Human-Computer Interaction"
+  name: 'International Conference on Human Haptic Sensing and Touch Enabled Computer Applications'
+  short_name: 'EuroHaptics 2026'
+  pages: '424–442'
+  publisher: 'Springer Nature Switzerland'
 peer_reviewed: true
 open_access: true
 abstract: |
@@ -23,9 +26,10 @@ tags:
   - Tactile Graphics
   - Haptics
   - Accessibility
+  - Tactile Perception
 featured: true
 ---
 
-Research on tactile dissimilarity and transition saliency for the design of accessible tactile graphics.
+This paper presents empirical insights toward a relative metric for tactile dissimilarity and transition saliency, supporting the design of accessible tactile graphics.
 
 [View the publication record at Institut Polytechnique de Paris.](https://researchportal.ip-paris.fr/en/publications/toward-arelative-metric-fortactile-dissimilarity-empirical-insigh/)
