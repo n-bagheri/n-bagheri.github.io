@@ -10,13 +10,15 @@ sections:
       username: me
       text: ''
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: Research Profile
+        education: Education
+        interests: Research Interests
     design:
       background:
         gradient_mesh:
           enable: true
+      banner:
+        filename: tactile-research-banner.jpg
       name:
         size: md
       avatar:
@@ -26,27 +28,17 @@ sections:
     content:
       title: 'Research'
       text: |-
-        My research sits at the intersection of haptics, tactile perception, and accessible human–computer interaction. I investigate how tactile graphics can convey visual and spatial information clearly, and how computational methods can make the creation of tactile maps more scalable and inclusive.
+        My research sits at the intersection of accessible visual computing, tactile perception, and human-computer interaction. I investigate how tactile graphics can communicate visual and spatial information clearly, and how perceptually grounded computational methods can support the semi-automatic creation of educational tactile maps for blind and low-vision learners.
     design:
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Selected Publications
       filters:
         folders:
           - publications
         featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
     design:
       view: citation
 ---
