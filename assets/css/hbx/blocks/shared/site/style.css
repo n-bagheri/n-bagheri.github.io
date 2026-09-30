@@ -7,3 +7,12 @@
 #section-resume-biography-3.hbb-section {
   padding-top: 0;
 }
+
+#section-resume-biography-3 .resume-biography {
+  padding-top: clamp(2rem, 5vw, 6rem);
+}
+
+#section-markdown .prose {
+  text-align: justify;
+  text-justify: inter-word;
+}
