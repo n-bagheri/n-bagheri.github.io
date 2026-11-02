@@ -39,9 +39,13 @@ This project investigates a human-in-the-loop visual computing pipeline that sup
 
 ## Perceptually grounded pattern assignment
 
-The pattern-assignment stage is informed by empirical work on tactile similarity and transition saliency. We assembled an eight-pattern set using tactile-graphics guidelines, practitioner input, and an analysis of 240 existing tactile maps. In an initial study, 17 blindfolded sighted participants completed free-sorting and pairwise transition-comparison tasks. A follow-up study involved six blind participants and one participant with low vision.
+The system incorporates findings from our research on tactile pattern perception to support the selection of distinguishable textures for thematic maps.
 
-Multidimensional scaling and stochastic triplet embedding revealed a consistent global organization of the patterns into four perceptual clusters. The transcription system uses these results together with a class-adjacency graph: it selects no more than one pattern from each perceptual cluster and seeks an assignment that maximizes the minimum perceptual distance between adjacent map regions. This makes the method sensitive to local boundaries—the transitions a reader actually encounters while exploring a tactile map.
+Our previously published work at EuroHaptics 2026 investigated tactile dissimilarity and transition saliency through perceptual studies involving sighted and visually impaired participants.
+
+Building on these findings, the ongoing project explores computational strategies for assigning tactile textures while considering the spatial structure of thematic maps.
+
+The complete implementation and its evaluation are currently under development. Further technical details will be made available through future scientific publications.
 
 ## Human control and accessible output
 
