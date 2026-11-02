@@ -59,7 +59,7 @@ The next evaluation phase will examine the complete workflow with tactile-map cr
 
 ## Resources
 
-- [Source code and development repository](https://github.com/n-bagheri/mapgen-thematic)
+- **Source code:** The research implementation is currently maintained in a private repository while the system and its scientific evaluation are under development. Code and technical documentation may be released alongside future publications.
 - [Prototype demonstration](https://nuage.lix.polytechnique.fr/index.php/s/fPDrse7dNFeEYej)
 - [EuroHaptics 2026 paper on tactile dissimilarity and transition saliency](https://link.springer.com/chapter/10.1007/978-3-032-32350-7_32)
 
